@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="idcard">
+      <h1 id="main"></h1>
+      <img id="imag"></img>
+      <p id="nam"></p>
+      <p id="bg"></p>
+      <p id="mbno"></p>
+      <p id="add"></p>
+    </div>
+    
+    <script>
+      
+      let name=document.getElementById("main")
+      name.innerHTML="<center>10kCoder</center>"
+      let image=document.getElementById("imag")
+      image.setAttribute("src","../kumar.png")
+      image.style.height="100px"
+      image.style.borderRadius="5px"
+      image.style.marginLeft="63px"
+      let name1=document.getElementById("nam")
+      name1.innerHTML="<center>Kumar</center>"
+      name1.style.color="red"
+    
+      let blood=document.getElementById("bg")
+      blood.innerHTML="<center>B+</center>"
+      blood.style.color="green"
+      let mob=document.getElementById("mbno")
+      mob.innerHTML="<center>9381494227</center>"
+
+
+      let add=document.getElementById("add")
+      add.innerHTML="<center> Near KPHB Merto</center>"
+
+      
+      let div=document.getElementById("idcard")
+      div.style.height="60vh"
+      div.style.width="40vh"
+      div.style.backgroundColor="grey"
+      div.style.borderRadius="5px"
+      div.style.padding="20px"
+      
+
+
+      
+    </script>
+</body>
+</html>
